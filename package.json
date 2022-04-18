@@ -1,0 +1,21 @@
+{
+  "name": "testdf2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./node_modules/gupshup-botrunner/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/gupshup-local-botrunner/index.js",
+    "deploy": "node ./node_modules/gupshup-local-botrunner/deploy.js"
+  },
+  "author": {
+    "name": "Maria lomeli",
+    "email": "maria.lomeli@gupshup.io",
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.7.0",
+    "gupshup-local-botrunner": "^1.6.5"
+  }
+}
